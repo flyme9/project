@@ -1,0 +1,38 @@
+.goodsInfo{
+    margin: 20px auto;
+    height: 550px;
+    padding: 30px;
+    width: calc(1200px - 60px);
+}
+.goodsInfo>.left{
+    float: left;
+    width: 450px;
+    height: 100%;
+    border: 1px solid #333;
+}
+.goodsInfo>.left>.img{
+    width: 450px;
+    height: 450px;
+    border-bottom: 1px solid #333;
+}
+.goodsInfo>.right{
+    float: right;
+    width: 650px;
+    height: 100%;
+}
+.goodsInfo>.right>p{
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.goodsInfo>.right>button{
+    width: calc(50% - 20px);
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    margin:0 5px;
+}
+.info{
+    border: 1px solid #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
