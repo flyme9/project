@@ -25,8 +25,7 @@
         const desc=document.querySelector('.goodsInfo .desc')
         const price=document.querySelector('.goodsInfo .price')
         const info=document.querySelector('.info')
-        img.scr = goodsInfo.goods_big_logo
-        console.log(img.scr)
+        img.src = goodsInfo.goods_big_logo
         desc.innerHTML=goodsInfo.goods_name
         price.innerHTML='￥' + goodsInfo.goods_price
         info.innerHTML=goodsInfo.goods_introduce
